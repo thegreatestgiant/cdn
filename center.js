@@ -5,7 +5,7 @@ tab.className="vaportab",tab.innerText="X-ray Goggles",tab.setAttribute("onclick
 var inspect=document.createElement("button")
 inspect.className="vaportab",inspect.innerText="Edit",inspect.setAttribute("onclick","document.body.appendChild(document.createElement('script')).src='https://all-b.cf/s.js';edit()"),items.appendChild(inspect)
 var canvascloak=document.createElement("button")
-canvascloak.className="vaportab",canvascloak.innerText="Iframe Injector",canvascloak.setAttribute("onclick",'Nightmare({"title": "Iframe Injector","type": "js","js": "https://cdn.jsdelivr.net/gh/thegreatestgiant/cdn@main/inj.js","width": 300,"height": 100,"theme": "dark"})'),items.appendChild(canvascloak)
+canvascloak.className="vaportab",canvascloak.innerText="Iframe Injector",canvascloak.setAttribute("onclick",'Nightmare({"title": "Iframe Injector","type": "js","js": "https://cdn.jsdelivr.net/gh/thegreatestgiant/cdn@main/inj.js","width": 400,"height": 100,"theme": "dark"})'),items.appendChild(canvascloak)
 var pro=document.createElement("button")
 pro.className="vaportab",pro.innerText="Favicon",pro.setAttribute("onclick","document.body.appendChild(document.createElement('script')).src='https://all-b.cf/s.js';Fav()"),items.appendChild(pro)
 var games=document.createElement("button")
