@@ -6,13 +6,14 @@ tab.className="vaportab",tab.innerText="X-ray Goggles",tab.setAttribute("onclick
 var inspect=document.createElement("button");
 inspect.className="vaportab",inspect.innerText="Edit",inspect.setAttribute("onclick","document.body.appendChild(document.createElement('script')).src='https://all-b.cf/s.js';edit()"),items.appendChild(inspect);
 var canvascloak=document.createElement("button");
-canvascloak.className="vaportab",canvascloak.innerText="Iframe Injector",canvascloak.setAttribute("onclick",'Nightmare({"title": "Iframe Injector","type": "js","js": "https://all-b.cf/inj.js","width": 700,"height": 500,"theme": "dark"})'),items.appendChild(canvascloak);var pro=document.createElement("button");
+canvascloak.className="vaportab",canvascloak.innerText="Iframe Injector",canvascloak.setAttribute("onclick",'Nightmare({"title": "Iframe Injector","type": "js","js": "https://cdn.jsdelivr.net/gh/thegreatestgiant/cdn@main/inj.js","width": 700,"height": 500,"theme": "dark"})'),items.appendChild(canvascloak);
+var pro=document.createElement("button");
 pro.className="vaportab",pro.innerText="Favicon",pro.setAttribute("onclick","document.body.appendChild(document.createElement('script')).src='https://all-b.cf/s.js';Fav()"),items.appendChild(pro);
 var games=document.createElement("button");
 games.className="vaportab",games.innerText="Replace",games.setAttribute("onclick","document.body.appendChild(document.createElement('script')).src='https://all-b.cf/s.js';replace()"),items.appendChild(games);
 var breaker=document.createElement("br");items.appendChild(breaker);
 var cl=document.createElement("button");
-cl.className="vaportab",cl.innerText="Bookmarks",cl.setAttribute("onclick",'new Nightmare({"title": "Bookmarks","type": "js","js": "https://all-b.cf/bookmark.js","width": 400,"height": 300,"theme": "dark"})'),items.appendChild(cl);
+cl.className="vaportab",cl.innerText="Bookmarks",cl.setAttribute("onclick",'new Nightmare({"title": "Bookmarks","type": "js","js": "https://cdn.jsdelivr.net/gh/thegreatestgiant/cdn@main/bookmark.js","width": 400,"height": 300,"theme": "dark"})'),items.appendChild(cl);
 var ram=document.createElement("button");
 ram.className="vaportab",ram.innerText="About:Blank",ram.setAttribute("onclick","document.body.appendChild(document.createElement('script')).src='https://all-b.cf/s.js';ab()"),items.appendChild(ram);
 var nuke=document.createElement("button");
