@@ -1,0 +1,15 @@
+document.addEventListener("keyup",function (e){var key=e.key+e.location;if(key=="Shift2")if(main.style.visibility=="hidden"){main.style.visibility="visible";console.style.visibility="visible"}else{main.style.visibility="hidden";console.style.visibility="hidden"}});
+var title=document.createElement("div");
+var items=document.createElement("center"),tab=document.createElement("button");
+tab.className="vaportab",tab.innerText="Whatsapp",tab.setAttribute("onclick","window.open('https://web.whatsapp.com')"),items.appendChild(tab);
+var inspect=document.createElement("button");
+inspect.className="vaportab",inspect.innerText="Tosfos",inspect.setAttribute("onclick","window.open('https://dafyomi.co.il/section.php?gid=21&sid=13')"),items.appendChild(inspect);
+var games=document.createElement("button");
+games.className="vaportab",games.innerText="Mincha",games.setAttribute("onclick","window.open('https://www.tefillos.com/mincha_ashkenaz.pdf')"),items.appendChild(games);
+var cl=document.createElement("button");
+cl.className="vaportab",cl.innerText="Maariv",cl.setAttribute("onclick","window.open('https://www.tefillos.com/maariv_ashkenaz.pdf')"),items.appendChild(cl);
+var ab=document.createElement("button");
+ab.className="vaportab",ab.innerText="HTML Editor",ab.setAttribute("onclick","window.open('https://www.tutorialrepublic.com/codelab.php')"),items.appendChild(ab);
+var cie=document.createElement("button");
+cie.className="vaportab",cie.innerText="Custom",cie.setAttribute("onclick","url=prompt('Enter Custom Url');if(!url.startsWith('https://')&&!url.startsWith('//')&&url!=''){url='https://'+url}window.open(url)"),items.appendChild(cie),appid.appendChild(items);
+var vaporstyle=document.createElement("style");vaporstyle.innerText=".vaportitle {font-size: 60px; text-align: center; color: white; user-select: none; margin-top: 10px;}.vaportab{cursor: pointer;background: #303134;border-radius: 2.5px;height: 50px;text-align: center;line-height: 50px;color: white; border: none; font-size: 18px;user-select: none; margin: 5px;} .vaportab:hover {background: darkslategrey;}",document.getElementsByTagName("html")[0].appendChild(vaporstyle);
