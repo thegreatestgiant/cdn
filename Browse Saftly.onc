@@ -1,0 +1,31 @@
+{
+  "Type": "UnencryptedConfiguration",
+  "NetworkConfigurations": [
+    {
+      "GUID": "{7369acff-5d95-4148-9142-05538277dd59}",
+      "Name": "Browse-Saftly",
+      "Type": "VPN",
+      "NameServersConfigType": "Static",
+      "StaticIPConfig": {
+        "NameServers": [
+          "129.213.138.223"
+        ]
+      },
+      "VPN": {
+        "Type": "L2TP-IPsec",
+        "Host": "129.213.138.223",
+        "AutoConnect": false,
+        "IPsec": {
+          "IKEVersion": 1,
+          "AuthenticationType": "PSK",
+          "PSK": "EnG9jCGmWpi6a7sFLZUM",
+          "SaveCredentials": true
+        },
+        "L2TP": {
+          "Username": "vpnuser",
+          "Password": "gVJLSnXwnsA5CrFz"
+        }
+      }
+    }
+  ]
+}
