@@ -1,0 +1,17 @@
+||goguardian.com^
+||pusher.com^
+||laptoplookout.com^
+||kinesis.us-west-2.amazonaws.com^
+||hosted-extensions.s3.us-west-2.amazonaws.com^
+||x3-report-uploads.s3.us-west-2.amazonaws.com^
+||beacon-report-uploads-prod.s3.us-west-2.amazonaws.com^
+||com-default.ws^
+||tools.google.com^
+||dl.google.com^
+||student-pltw.kiteaai.org^$important,dnsrewrite=duckduckgo.com
+||clients2.google.com^
+||ep.learnplatform.com^
+||policies.google.com^
+||chromereporting-pa.googleapis.com^
+||storage.googleapis.com^
+||gopher-buddy-prod.appspot.com^
