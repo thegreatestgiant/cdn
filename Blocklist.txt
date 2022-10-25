@@ -22,6 +22,10 @@
 ||storage.googleapis.com^
 ||gopher-buddy-prod.appspot.com^
 
+!This next one is a test to see if it's working
+||example.com^
+||example.org^
+
 # LightSpeed
 
 ||relay-production-sockets-alb-1210277364.us-west-2.elb.amazonaws.com^
