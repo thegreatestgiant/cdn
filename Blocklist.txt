@@ -80,3 +80,8 @@
 contentkeeper.io
 contentkeeper.net
 contentkeeper.com
+
+# Random requests
+https://api-lsa.lenovosoftware.com/0/lsa/lanschool/clientInstaller/chrome/auto-update.xml
+https://api-lsa.lenovosoftware.com/0/lsa/lanschool/extensionInstaller/chrome/auto-update.xml
+
