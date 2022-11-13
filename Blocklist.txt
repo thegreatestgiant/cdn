@@ -39,12 +39,26 @@
 ||lightspeed-apps.s3.amazonaws.com^
 ||lsmdm.com^
 ||lsaccess.me^
+||lsaccess.com^
+||lsurl.me^
+||lightspeed-realtime.ably.io^
+||a-fallback-lightspeed.ably.io^
+||b-fallback-lightspeed.ably.io^
+||c-fallback-lightspeed.ably.io^
+||realtime.ably.io^
 ||lsclassroom.com^
 ||relay.school^
 ||lsfilter.com^
 ||lsrelayaccess.com^
 ||devices.lsmdm.com^
 ||lsagent.fcps.org^
+||rest.ably.io^
+||global.stun.twillo.com^
+||global.turn.twillo.com^
+||apiproxy-website-nlb-prod-3-ac110f6ae472b85a.elb.eu-west-1.amazonaws.com^
+||firehose.us-west-2.amazonaws.com^
+||us-west-2.elb.amazonaws.com^
+||5rw61tcrl5.execute-api.us-west-2.amazonaws.com^
 
 # Linewise
 
@@ -58,6 +72,7 @@
 # Securly
 
 ||securly.com^
+||tabpilot.com^
 ||uswest-www-alb-1430906465.us-west-1.elb.amazonaws.com^
 
 # Blocksi
@@ -70,18 +85,73 @@
 # Iboss
 
 ||ibosscloud.com^
+||iboss.si^
 
 # Cisco 
 
 ||opendns.com^
+||umbrella.cisco.com^
+||crl3.digicert.com^
+||crl4.digicert.com^
+||ocsp.digicert.com^
+||s.tunnels.ironport.com^
 
 # Content Keeper
 
-contentkeeper.io
-contentkeeper.net
-contentkeeper.com
+||contentkeeper.io^
+||contentkeeper.net^
+||contentkeeper.com^
+||fastvue.co^
+
+# Gopher Buddy
+||amplifiedit.com^
+||gopher-buddy-prod.appspot.com^
+
+# FortiGuard / Fortinet
+||fortinet.com^
+||forticlient.com^
+||fortiguard.com^
+
+# Hapara
+||hapara.com^
+||teacherdashboard.com^
+||mystudentdashboard.com^
+||pusherapp.com^
+||pusher.com^
+||teacher-db.appspot.com^
+||haparaview.appspot.com^
+||td-admin.appspot.com^
+||td-setup.appspot.com^
+||bomgar.com^
+
+# LanSchool
+||lanschool.com^
+||lanschoolair\lenovo.\.com^
+||lenovosoftware.com^
+
+# Net Reef
+||net-ref.com^
+
+Palo Alto
+||paloaltonetworks.com^
+
+# LFGL
+||lgfl.net^
+||safehomeschool.net^
+
+# Zscaler
+||zscalerone.net^
+||zscaler.com^
+
+# Sophos
+||sophos.com^
+
+# Qustodio
+||qustodio.com^
+
+# DyKnow
+||dyknow.com^
 
 # Random requests
 https://api-lsa.lenovosoftware.com/0/lsa/lanschool/clientInstaller/chrome/auto-update.xml
 https://api-lsa.lenovosoftware.com/0/lsa/lanschool/extensionInstaller/chrome/auto-update.xml
-
