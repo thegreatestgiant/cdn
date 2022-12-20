@@ -42,3 +42,4 @@ sudo systemctl stop systemd-resolved && systemctl disable systemd-resolved
 
 # You're done
 echo "log into your Adguard-home acct. now on port the port"
+exit 0
