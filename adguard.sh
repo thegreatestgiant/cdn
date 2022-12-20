@@ -1,15 +1,12 @@
 #!/bin/bash
 
 # Update
-#echo "Update first"
-#echo "yum -y update && yum upgrade -y"
+echo "Update first"
 sudo yum -y update && sudo yum upgrade -y
 
 # Install epel-release
 echo "Install epel-release"
-EPEL="yum install epel-release -y"
-echo $EPEL
-sudo $EPEL
+sudo yum install epel-release -y
 
 # get snapd
 echo "snapd stuff"
