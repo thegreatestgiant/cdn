@@ -41,4 +41,4 @@ echo "$SPaCE $SPaCE $SPaCE make it work now $SPaCE $SPaCE $SPaCE"
 sudo systemctl stop systemd-resolved && systemctl disable systemd-resolved
 
 # You're done
-echo "log into your Adguard-home acct. now on port 3000"
+echo "log into your Adguard-home acct. now on port the port"
