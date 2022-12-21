@@ -52,5 +52,11 @@ sudo systemctl stop systemd-resolved && sudo systemctl disable systemd-resolved
 
 # You're done
 echo $bord
-echo "log into your Adguard-home acct. now on port the port"
+echo "Setup in the web browser now on port 3000"
 echo $bord
+echo "Maintenance and Upgrading"
+echo "Run \"sudo snap refresh adguard-home\" to update."
+echo "sudo snap restart adguard-home (This'll restart the service etc)"
+echo "sudo snap services"
+echo $bord
+exit 1
