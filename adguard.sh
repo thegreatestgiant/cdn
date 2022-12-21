@@ -12,13 +12,13 @@ sudo yum install epel-release -y
 
 # get snapd
 echo $bord
-echo "snapd stuff"
+echo "Install snapd"
 echo $bord
 sudo yum install snapd -y
 
 # systemctl
 echo $bord
-echo "Systemctl stuff"
+echo "Use Systemctl to verify snapd and start web console"
 echo $bord
 sudo systemctl enable --now snapd.socket
 
@@ -32,12 +32,12 @@ echo $bord
 echo "Install adguard"
 echo $bord
 sudo snap install snapd
-sleep 1
+sleep 3
 sudo snap install adguard-home
 
 # Firewall stuff
 echo $bord
-echo "Firewall Stuff"
+echo "Enable Firewall For Adguard"
 echo $bord
 sudo firewall-cmd --zone=public --add-port=3000/tcp --permanent
 sudo firewall-cmd --zone=public --add-port=53/udp --permanent
@@ -46,7 +46,7 @@ sudo firewall-cmd --reload
 
 # make it work
 echo $bord
-echo "make it work now"
+echo "Finish Firewall"
 echo $bord
 sudo systemctl stop systemd-resolved && sudo systemctl disable systemd-resolved
 
