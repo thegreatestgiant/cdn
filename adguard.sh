@@ -49,14 +49,14 @@ echo $bord
 echo "Finish Firewall"
 echo $bord
 sudo systemctl stop systemd-resolved && sudo systemctl disable systemd-resolved
+echo "success"
 
 # You're done
 echo $bord
-echo "Setup in the web browser now on port 3000"
+echo "                                                  Setup in the web browser now on port 3000"
+echo "                                                           Maintenance and Upgrading"
 echo $bord
-echo "Maintenance and Upgrading"
 echo "Run \"sudo snap refresh adguard-home\" to update."
 echo "sudo snap restart adguard-home (This'll restart the service etc)"
 echo "sudo snap services"
-echo $bord
 exit 1
