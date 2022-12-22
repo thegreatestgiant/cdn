@@ -22,6 +22,7 @@ sudo firewall-cmd --permanent --zone=public --add-port=6080/tcp
 sudo firewall-cmd --reload
 
 vncserver
+sleep 1
 
 cd noVNC
 ./run.sh
