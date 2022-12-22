@@ -2,13 +2,12 @@
 
 sudo apt update && sudo apt install tigervnc-standalone-server tigervnc-common -y
 git clone https://github.com/novnc/noVNC
-cd noVNC/
-echo "./utils/novnc_proxy --vnc 0.0.0.0:5901 --listen 0.0.0.0:6081" > run.sh
+echo "cd noVNC" > run.sh
+echo "./utils/novnc_proxy --vnc 0.0.0.0:5901 --listen 0.0.0.0:6081" >> run.sh
 chmod +x run.sh
-
 sudo apt install xfce4 xfce4-goodies -y
-cd ..
 vncserver
+sleep 1
 vncserver -kill :1
 cd .vnc
 echo "#!/bin/sh" >> xstartup
@@ -22,7 +21,6 @@ sudo firewall-cmd --permanent --zone=public --add-port=6080/tcp
 sudo firewall-cmd --reload
 
 vncserver
-sleep 1
 
-cd noVNC
 ./run.sh
+echo "if it gives you an error and doesn't ask for a pass then run `vncserver` and then ./run.sh"
