@@ -1,6 +1,7 @@
 # Goguardian
 
 /goguardian/
+||ext.goguardian.com^
 ||goguardian.com^
 ||pusher.com^
 ||laptoplookout.com^
