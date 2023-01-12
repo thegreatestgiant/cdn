@@ -23,7 +23,7 @@
 ||storage.googleapis.com^
 ||gopher-buddy-prod.appspot.com^
 
-!This next one is a test to see if it's working
+#This next one is a test to see if it's working
 ||example.com^
 ||example.org^
 
@@ -157,3 +157,9 @@ Palo Alto
 # Random requests
 https://api-lsa.lenovosoftware.com/0/lsa/lanschool/clientInstaller/chrome/auto-update.xml
 https://api-lsa.lenovosoftware.com/0/lsa/lanschool/extensionInstaller/chrome/auto-update.xml
+
+# Irwin Tech
+/irwintech/
+||www.youtube.com/@IrwinTech^
+||youtube.com/@IrwinTech^
+https://www.youtube.com/results?search_query=irwin+tech
