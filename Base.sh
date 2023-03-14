@@ -1,4 +1,4 @@
-#!/bin/bash -i
+#!/bin/bash
 
 PACKAGES=(nano net-tools docker docker.io docker-compose nautilus bat nginx sshfs zip unzip cmatrix tree)
 
