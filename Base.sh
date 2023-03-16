@@ -3,7 +3,8 @@
 PACKAGES=("nano" "net-tools" "docker" "docker.io" "docker-compose" "nautilus" "bat" "nginx" "sshfs" "zip" "unzip" "cmatrix" "tree")
 
 setup_shell() {
-    echo "alias bat='batcat'
+    echo "
+    alias bat='batcat'
     alias cmatrix='cmatrix -sb'
     alias i='sudo apt install -y'
     alias cd..='cd ..'
