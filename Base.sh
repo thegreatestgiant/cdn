@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm Base.sh
+
 PACKAGES=("nano" "net-tools" "docker" "docker.io" "docker-compose" "nautilus" "bat" "nginx" "sshfs" "zip" "unzip" "cmatrix" "tree")
 
 setup_shell() {
