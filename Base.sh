@@ -1,7 +1,5 @@
 #!/bin/bash
 
-rm Base.sh
-
 PACKAGES=("nano" "net-tools" "docker" "docker.io" "docker-compose" "nautilus" "bat" "nginx" "sshfs" "zip" "unzip" "cmatrix" "tree")
 
 setup_shell() {
@@ -15,6 +13,8 @@ setup_shell() {
     alias weather='curl wttr.in'
     alias zupdate='sudo apt update && sudo apt upgrade -y'
     HISTTIMEFORMAT='%Y-%m-%d %T '" >> ~/.bashrc
+
+    rm Base.sh
 
     exec bash
 }
