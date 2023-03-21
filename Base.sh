@@ -14,6 +14,7 @@ setup_shell() {
     alias weather='curl wttr.in'
     alias zupdate='sudo apt update && sudo apt upgrade -y'
     alias grep='grep --color=auto'
+    alias unmount='fusermount -u Kavita'
     HISTTIMEFORMAT='%Y-%m-%d %T '" >> ~/.bashrc
 
     rm Base.sh
