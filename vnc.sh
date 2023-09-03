@@ -1,11 +1,11 @@
 #!/bin/bash
 
-sudo apt update && sudo apt install tigervnc-standalone-server tigervnc-common -y
+apt update && apt install tigervnc-standalone-server tigervnc-common -y
 git clone https://github.com/novnc/noVNC
 echo "cd noVNC" > run.sh
 echo "./utils/novnc_proxy --vnc 0.0.0.0:5901 --listen 0.0.0.0:6081" >> run.sh
 chmod +x run.sh
-sudo apt install xfce4 xfce4-goodies -y
+apt install xfce4 xfce4-goodies -y
 vncserver
 sleep 1
 vncserver -kill :1
@@ -16,9 +16,9 @@ echo "exec startxfce4" >> xstartup
 chmod 777 xstartup
 cd ..
 
-sudo apt install firewalld -y
-sudo firewall-cmd --permanent --zone=public --add-port=6080/tcp
-sudo firewall-cmd --reload
+apt install firewalld -y
+firewall-cmd --permanent --zone=public --add-port=6080/tcp
+firewall-cmd --reload
 
 vncserver
 
