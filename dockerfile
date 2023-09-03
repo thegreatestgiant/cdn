@@ -17,7 +17,7 @@ RUN git clone https://github.com/novnc/noVNC /opt/novnc
 # Create a startup script
 RUN echo "#!/bin/bash" > /opt/run.sh \
     && echo "cd /opt/novnc" >> /opt/run.sh \
-    && echo "./utils/novnc_proxy --vnc 0.0.0.0:5901 --listen 0.0.0.0:6081" >> /opt/run.sh \
+    && echo "/opt/novnc/utils/novnc_proxy --vnc 0.0.0.0:5901 --listen 0.0.0.0:6081" >> /opt/run.sh \
     && chmod +x /opt/run.sh
 
 # Create a VNC password
@@ -28,18 +28,11 @@ RUN mkdir -p ~/.vnc \
 # Create a startup script for the VNC server
 RUN echo "#!/bin/sh" > ~/.vnc/xstartup \
     && echo "export XKL_XMODMAP_DISABLE=1" >> ~/.vnc/xstartup \
-    && echo "exec startxfce4" >> ~/.vnc/xstartup \
+    && echo "exec startxfce4 --with-ck-launch" >> ~/.vnc/xstartup \
     && chmod +x ~/.vnc/xstartup
 
-# Install and configure firewall
-#RUN apt-get install -y firewalld \
-#    && systemctl enable firewalld \
-#    && systemctl start firewalld \
-#    && firewall-cmd --permanent --zone=public --add-port=6080/tcp \
-#    && firewall-cmd --reload
-
 # Expose VNC and noVNC ports
-EXPOSE 5901 6080
+EXPOSE 5901 6080 6081
 
 # Start VNC server and noVNC proxy
 CMD vncserver :1 -localhost no -geometry 1366x768 && /opt/run.sh && echo "if it gives you an error and doesn't ask for a pass then run 'vncserver' and then /opt/run.sh"
