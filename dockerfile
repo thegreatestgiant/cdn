@@ -32,11 +32,11 @@ RUN echo "#!/bin/sh" > ~/.vnc/xstartup \
     && chmod +x ~/.vnc/xstartup
 
 # Install and configure firewall
-RUN apt-get install -y firewalld \
-    && systemctl enable firewalld \
-    && systemctl start firewalld \
-    && firewall-cmd --permanent --zone=public --add-port=6080/tcp \
-    && firewall-cmd --reload
+#RUN apt-get install -y firewalld \
+#    && systemctl enable firewalld \
+#    && systemctl start firewalld \
+#    && firewall-cmd --permanent --zone=public --add-port=6080/tcp \
+#    && firewall-cmd --reload
 
 # Expose VNC and noVNC ports
 EXPOSE 5901 6080
