@@ -1,4 +1,4 @@
-# Goguardian
+# GoGuardian
 
 /goguardian/
 ||ext.goguardian.com^
@@ -61,7 +61,7 @@
 ||us-west-2.elb.amazonaws.com^
 ||5rw61tcrl5.execute-api.us-west-2.amazonaws.com^
 
-# Linewise
+# Linewize
 
 ||familyzone.io^
 ||linewize.io^
@@ -88,7 +88,7 @@
 ||ipify.org^
 ||ip-api.com^
 
-# Iboss
+# iBoss
 
 ||ibosscloud.com^
 ||iboss.si^
@@ -102,7 +102,7 @@
 ||ocsp.digicert.com^
 ||s.tunnels.ironport.com^
 
-# Content Keeper
+# ContentKeeper
 
 ||contentkeeper.io^
 ||contentkeeper.net^
@@ -135,7 +135,7 @@
 ||lanschoolair\lenovo.\.com^
 ||lenovosoftware.com^
 
-# Net Reef
+# NetRef
 ||net-ref.com^
 
 Palo Alto
